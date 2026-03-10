@@ -1,50 +1,29 @@
-# Revenue Analytics Data Warehouse
+# Revenue Analytics Data Mart
 
-End-to-end analytics project demonstrating how raw transactional data can be transformed into executive-level revenue insights using SQL and Tableau.
+Senior-level SQL and Tableau project demonstrating how transactional order data can be transformed into a reporting-ready analytics layer for executive revenue reporting, customer retention analysis, and product performance measurement.
 
-## Project Overview
+## Project Summary
 
-This project simulates a company's revenue reporting system by transforming raw order-level data into a structured analytics layer that powers dashboards.
+This project simulates the design of a revenue-focused analytics data mart that supports recurring business review and executive KPI reporting. Using raw order, customer, and product data, I built SQL transformation logic to define standardized revenue metrics, customer cohort retention, customer lifetime value, and product-level performance.
 
-The analysis focuses on answering key business questions:
+The resulting models are structured to support scalable BI reporting and Tableau dashboard development.
 
-• How is revenue trending month-over-month?  
-• What is the average order value?  
-• Which products generate the most revenue?  
-• How many customers are purchasing each month?
+## Business Questions Answered
 
-## Tools Used
+- How is revenue trending month over month?
+- What is driving revenue growth or decline?
+- How many new versus returning customers are purchasing each month?
+- Which products generate the highest revenue and order volume?
+- How are customer cohorts retained over time?
+- Which customers generate the highest lifetime value?
 
-- SQL
-- Tableau
-- CSV datasets
-- Business Intelligence modeling
+## Technical Skills Demonstrated
 
-## Dataset Structure
-
-The project uses three core datasets:
-
-| Table | Description |
-|------|-------------|
-| orders | Order level transaction data |
-| customers | Customer attributes |
-| products | Product catalog |
-
-## SQL Techniques Demonstrated
-
+- Advanced SQL transformations
 - Common Table Expressions (CTEs)
 - Window functions
-- Revenue KPI modeling
-- Multi-table joins
-- Aggregations
-
-## Dashboard
-
-A Tableau dashboard was built to visualize:
-
-• Monthly revenue trends  
-• Revenue by product  
-• Revenue by acquisition channel  
-• Customer growth  
-
-Dashboard screenshot available in the `/dashboard` folder.
+- Cohort retention analysis
+- Customer lifetime value modeling
+- KPI standardization
+- Tableau dashboard design
+- Reporting layer development
