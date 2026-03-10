@@ -1,1 +1,5 @@
-
+carrier_id,carrier_name,carrier_type
+CR001,UPS,Parcel
+CR002,FedEx,Parcel
+CR003,USPS,Parcel
+CR004,XPO LTL,LTL
