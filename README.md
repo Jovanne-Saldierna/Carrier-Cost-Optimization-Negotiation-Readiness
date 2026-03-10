@@ -27,3 +27,10 @@ The resulting models are structured to support scalable BI reporting and Tableau
 - KPI standardization
 - Tableau dashboard design
 - Reporting layer development
+
+## Analytics Flow
+
+Raw CSV Source Data  
+→ SQL Staging and Metric Modeling  
+→ Reporting-Ready Revenue Data Mart  
+→ Tableau Executive Dashboard
