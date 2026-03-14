@@ -1,6 +1,6 @@
 # Shipping Cost Intelligence System
 
-A consulting-style analytics case study modeling how a growth-stage retailer with **$1.6M in annual shipping spend** could consolidate fragmented carrier data into a single decision-support system, unlocking **$293,482 in identified savings opportunities (18.6% cost reduction)**.
+A consulting-style analytics case study modeling how a growth-stage retailer with **$1.6M in annual shipping spend** could consolidate fragmented carrier data into a single decision-support system — unlocking **$293,482 in identified savings opportunities (18.6% cost reduction)**.
 
 ---
 
@@ -14,11 +14,11 @@ Three fully interactive dashboards with live scenario modeling, fuel sensitivity
 
 ## Key Findings
 
-- **UPS and FedEx control 68.4% of total spend** ($1.08M combined) but cost 30% more per lb than USPS, the highest-leverage renegotiation targets in the network
-- **99.8% of all shipments are subject to dimensional weight penalties**, carriers bill an average of 2.5x actual package weight, creating a $922,860 annual excess billing impact across parcel shipments
-- **Zone 6 costs 65% more per lb than Zone 2** ($6.94 vs $4.21), geographic lane concentration is the single largest structural cost driver
-- **$293,482 in validated savings** identified under proposed carrier rates across 4,995 matched shipments, savings rates are consistent at 18–20% across all top lanes, signaling a systemic rate gap rather than isolated inefficiencies
-- **Ground service accounts for 46.8% of total spend** ($740K), the highest-leverage service level for negotiation
+- **UPS and FedEx control 68.4% of total spend** ($1.08M combined) but cost 30% more per lb than USPS — the highest-leverage renegotiation targets in the network
+- **99.8% of all shipments are subject to dimensional weight penalties** — carriers bill an average of 2.5x actual package weight, creating a $922,860 annual excess billing impact across parcel shipments
+- **Zone 6 costs 65% more per lb than Zone 2** ($6.94 vs $4.21) — geographic lane concentration is the single largest structural cost driver
+- **$293,482 in validated savings** identified under proposed carrier rates across 4,995 matched shipments — savings rates are consistent at 18–20% across all top lanes, signaling a systemic rate gap rather than isolated inefficiencies
+- **Ground service accounts for 46.8% of total spend** ($740K) — the highest-leverage service level for negotiation
 
 ---
 
@@ -38,7 +38,7 @@ Three fully interactive dashboards with live scenario modeling, fuel sensitivity
 *Root cause analysis across cost components, zones, and weight*
 
 - Full cost composition stacked bar: Base Cost + Fuel Surcharge + all surcharge types by carrier
-- Dimensional weight penalty chart: Billed vs. Actual package weight, 2.5x overbilling gap visualized
+- Dimensional weight penalty chart: Billed vs. Actual package weight — 2.5x overbilling gap visualized
 - Zone cost heatmap: Carrier × Zone colored by Cost Per Lb
 - Fuel surcharge sensitivity model: parameter-driven dual-line chart modeling cost impact of fuel increases up to 50%
 - Interactive fuel slider: drag to see projected cost impact in real time
@@ -49,7 +49,7 @@ Three fully interactive dashboards with live scenario modeling, fuel sensitivity
 - Dynamic scenario toggle: switch between Current Rates ($1.58M), Proposed Rates ($1.28M), and Savings ($293K)
 - Top 10 highest-value optimization lanes ranked by savings opportunity
 - Best Carrier Per Lane matrix: green = cheapest carrier per lane — a direct procurement decision guide
-- Carrier optimization detail table: lane-level breakdown of current cost, projected cost, savings %, and shipment count, sorted by highest opportunity, color-coded by savings intensity
+- Carrier optimization detail table: lane-level breakdown of current cost, projected cost, savings %, and shipment count — sorted by highest opportunity, color-coded by savings intensity
 
 ---
 
@@ -124,7 +124,7 @@ Total proposed savings of $293,482 represents 18.6% of $1,579,836 total spend �
 
 ## Interview Summary
 
-> *"I built a three-dashboard decision support system for a $1.6M shipping network across four carriers. The operational dashboard identified that UPS and FedEx control 68% of spend but cost 30% more per pound than USPS. The cost drivers dashboard uncovered that 99.8% of shipments are subject to dimensional weight penalties  with carriers billing 2.5x actual package weight, creating a $922K annual excess billing impact. The optimization engine modeled proposed carrier rates across 5,000 shipments and identified $293,000 in achievable savings, an 18.6% reduction  with consistent 18–20% savings rates across all top lanes signaling a systemic rate gap. Every number in the dashboard is validated against the raw data."*
+> *"I built a three-dashboard decision support system for a $1.6M shipping network across four carriers. The operational dashboard identified that UPS and FedEx control 68% of spend but cost 30% more per pound than USPS. The cost drivers dashboard uncovered that 99.8% of shipments are subject to dimensional weight penalties — with carriers billing 2.5x actual package weight, creating a $922K annual excess billing impact. The optimization engine modeled proposed carrier rates across 5,000 shipments and identified $293,000 in achievable savings — an 18.6% reduction — with consistent 18–20% savings rates across all top lanes signaling a systemic rate gap. Every number in the dashboard is validated against the raw data."*
 
 ---
 
